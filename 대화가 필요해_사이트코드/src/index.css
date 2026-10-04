@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&family=Nunito:wght@700;800;900&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-background: #FFF8F3;
+  --color-card: #FFFFFF;
+  --color-primary: #FF6B6B;
+  --color-primary-light: #FFE8E8;
+  --color-mint: #B5EAD7;
+  --color-mint-dark: #2D8F6A;
+  --color-mint-light: #E8F8F2;
+  --color-lavender: #C7CEEA;
+  --color-lavender-dark: #4A5391;
+  --color-lavender-light: #EDEEF8;
+  --color-peach: #FFDAC1;
+  --color-peach-dark: #B56A30;
+  --color-peach-light: #FFF3EC;
+  --color-muted: #F5EEE8;
+  --color-border: #EAE0D8;
+  --color-text: #2D2D2D;
+  --color-subtext: #8B7B72;
+  --font-sans: 'Noto Sans KR', sans-serif;
+  --font-display: 'Nunito', 'Noto Sans KR', sans-serif;
+  --radius-card: 20px;
+  --radius-btn: 14px;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background-color: #FFF8F3;
+  color: #2D2D2D;
+  font-family: 'Noto Sans KR', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar { width: 0; height: 0; }
+scrollbar-width: none;
+
+.font-display {
+  font-family: 'Nunito', 'Noto Sans KR', sans-serif;
+}
+
+/* confetti container */
+#confetti-root {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+}
