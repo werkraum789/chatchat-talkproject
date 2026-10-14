@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "cd 대화가 필요해_사이트코드 && pnpm build",
+    "build": "cd \"대화가 필요해_사이트코드\" && pnpm build",
     "preview": "vite preview",
     "format": "oxfmt"
   },
