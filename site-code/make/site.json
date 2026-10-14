@@ -1,0 +1,12 @@
+{
+  "title": "대화가 필요해",
+  "description": "3주 간의 챌린지 활동으로 가족과의 대화를 개선해 보세요!",
+  "language": "kor",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
