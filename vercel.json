@@ -1,4 +1,4 @@
 {
-  "buildCommand": "vite build",
+  "buildCommand": "pnpm mybuild",
   "outputDirectory": "dist"
 }
